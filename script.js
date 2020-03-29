@@ -1,5 +1,5 @@
 document.getElementById('button').addEventListener('click', function (){
-    document.getElementById('button').innerText = 'get another quote';
+    document.getElementById('button').innerText = 'get another one';
 
     function fetchSimpsonsQuotesJSON() {
         const url = `https://simpsons-quotes-api.herokuapp.com/quotes/`;
